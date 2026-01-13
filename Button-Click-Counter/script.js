@@ -1,10 +1,23 @@
-const button = document.getElementById("btn")
-const buttoncounter = document.getElementById("sh-c")
+const increbutton = document.getElementById("incre")
+const decrebutton = document.getElementById("decre")
+const resetbutton = document.getElementById("reset")
 
-let showcounter = 0
-button.addEventListener("click",counter)
+const Displaycount = document.getElementById("count")
 
-function counter(){
-    showcounter++
-    buttoncounter.innerText = showcounter
-}
+
+let count = 0;
+//increment
+increbutton.addEventListener("click",() => {
+    count++;
+    Displaycount.innerText = count;
+})
+//decrement
+decrebutton.addEventListener("click",() => {
+    count--;
+    Displaycount.innerText = count;
+})
+//reset
+resetbutton.addEventListener("click",() => {
+    count = 0;
+    Displaycount.innerText = 0;
+})
