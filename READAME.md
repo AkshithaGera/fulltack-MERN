@@ -18,7 +18,7 @@ This project helps beginners understand **DOM manipulation** and **event handlin
 ---
 
 ## ✨ Features
-- Click button to increase the counter
+- Click button to increase, decrease and reset the counter
 - Real-time update of count value
 - Clean and simple UI
 - Responsive design
@@ -44,7 +44,7 @@ Button-Click-Counter/
 ---
 
 ## 📸 Preview
-![Button Click Counter Screenshot](click.png)
+![This screenshot shows the current UI of the Counter App, including Increase, Decrease, and Reset buttons.](preview.png)
 
 
 ---
